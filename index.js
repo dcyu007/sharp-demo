@@ -1,5 +1,7 @@
 const sharp = require('sharp');
 
+/* The following two examples are both output file bigger than input */
+
 (async () => {
 	await sharp('./static/1.jpeg')
 		.jpeg({
